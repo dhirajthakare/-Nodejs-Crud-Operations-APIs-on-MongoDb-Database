@@ -19,7 +19,7 @@
        =>Mongoose = > npm i mongoose 
          --need for use mongoDb cloud server to insert,fetch,etc data.
          --After that you should Add You Account on mongoDb cloud server using following Link
-         --https://cloud.mongwhich odb.com/  
+         -- https://cloud.mongodb.com/ 
        
        =>body-parse => npm i body-parse
          --which is need to use Post Request.

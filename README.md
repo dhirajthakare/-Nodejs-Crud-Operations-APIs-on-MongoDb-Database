@@ -9,7 +9,10 @@
  # 2>After that Make One Seperate project For it-  
  
 # 3> then open command line on that project and we need some package for Run Nodejs Code As Follows  
-       
+         
+        =>npm init --y  
+        --this command for make a package json file  
+         
        =>express => npm i(install) express   
         --this package is nothing but express framwork which is need for use som express functionality.  
        

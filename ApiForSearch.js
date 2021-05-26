@@ -18,5 +18,13 @@ app.get("/search/:Name",function(req , res){
     })
 })
 
+app.get('/searchdata/:name' , function(req,res){
+    var regex = new RegExp(req.params.name,'i');
+    data.find({$or:[{Name:regex},{Email:regex},{Mob:regex},{Gender:regex}]}).then((resonce)=>{
+        res.json(resonce);
+    }).catch((err)=>{
+        console.log(err);
+    })
+})
 
 app.listen(4400);
